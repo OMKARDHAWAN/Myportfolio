@@ -1,0 +1,283 @@
+
+
+tl2.from([".logo h1",".nav-menu ul"],{
+    scale:1.1,
+    duration:2
+})
+tl2.from("#imgbox"{
+    opacity:0,
+    y:100,
+    duration:1
+})
+tl2.from([".photo",".hello"],{
+     opacity:0,
+     duration:0.5
+})
+tl2.from(".name",{
+    opacity:0,
+    duration:0.5
+})
+tl2.from("p",{
+   opacity:0,
+   duration:0.5
+})
+tl2.from(".developer",{
+    opacity:0,
+    duration:0.5
+ })
+ tl2.from(".button",{
+    opacity:0,
+    duration:0.5
+ })
+
+
+
+   <div class="Project-info2">
+          <div id="projecttitle">
+            <h1>BOOKYOURTABLE.COM</h1>
+          </div>
+          <div id="projecttext">
+            <p>This is a demo static Restaurant website,This website is made using
+              <B>HTML,CSS,JS,BOOTSTRAP</B>
+            </p>
+            <p>*Note:-In my laptop,I have made this website as dynamic where data is get stored in mongodb
+              database.On netlify you can't host dynamic website.henced I am adding here only <b>
+
+                static part
+              </b>
+            </p>
+            <div class="proj-lang">
+              <div class="proj-col">
+                <h3>FRONT-END</h3>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JAVASCRIPT</li>
+                </ul>
+              </div>
+              <div class="proj-col">
+                <h3>BACK-END</h3>
+                <ul>
+                  <li>NODE JS</li>
+                  <li>EXPRESS JS</li>
+                </ul>
+              </div>
+              <div class="proj-col">
+                <h3>DATABASE</h3>
+                <ul>
+                  <li>
+                    Mongodb
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+
+
+      <div class="Project-content2">
+        <div class="proj-view2">
+          <img src="/Images/bookyourtable.png" alt="" class="proj-img">
+          <button id="explore"><a href="https://art-explorer.netlify.app/">Explore ></a></button>
+        </div>
+
+
+      
+    </div>
+
+
+
+
+     <div class="footer">
+      adac
+      <div id="contact" class="container">
+        <div class="first-contact">
+          <h1>CONTACT ME</h1>
+          <h3>Address</h3>
+          <p>1313B,Siddhivinayak Housing Society,MIDC,j k files Ratnagiri 415-639</p>
+          <h3>Mobile No:</h3>
+          <p>8956503272</p>
+          <h3>Email id</h3>
+          <p>dhawanomkar355@gmail.com</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+        <div id="Project">
+      <div id="Project-heading">
+        <h1>PROJECTS</h1>
+        <h6>*Note: <b>PLEASE OPEN PROJECT ON LAPTOP FOR BETTER EXPERIENCES. </b> </h6>
+      </div>
+      <div class="Project-content">
+        <div class="Project-info">
+          <div id="projecttitle">
+            <h1>ART_EXPLORER</h1>
+          </div>
+          <div id="projecttext">
+            <p>This is a demo static e-com website,This website is made using <B>HTML,CSS,JS,BOOTSTRAP</B>
+            </p>
+            <p>*Note:-In my laptop,I have made this website as dynamic where data is get stored in mongodb
+              database.On netlify you can't host dynamic website.henced I am adding here only <b>
+
+                static part
+              </b>
+            </p>
+            <div class="proj-lang">
+              <div class="proj-col">
+                <h3>FRONT-END</h3>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JAVASCRIPT</li>
+                </ul>
+              </div>
+              <div class="proj-col">
+                <h3>BACK-END</h3>
+                <ul>
+                  <li>NODE JS</li>
+                  <li>EXPRESS JS</li>
+                </ul>
+              </div>
+              <div class="proj-col">
+                <h3>DATABASE</h3>
+                <ul>
+                  <li>
+                    Mongodb
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="proj-view">
+          <img src="/Images/art.png" alt="" class="proj-img">
+          <button id="explore"><a href="https://art-explorer.netlify.app/">Explore ></a></button>
+        </div>
+
+
+      </div>
+
+      <i class="fa-solid fa-xmark"></i>
+      <i class="fa-solid fa-bars"></i>
+      <div class="footer">
+      <div id="contact" class="container">
+        <div class="contact-header">
+          <h1>Contact Me</h1>
+        </div>
+        <div class="contact-box">
+          <div class="contact-box2" >
+            <h1><i class="fa-solid fa-location-dot"></i> Address</h1>
+            <p>1313B,Siddhivinayak Housing Society MIDC,Ratnagiri 415-639</p>
+            <br>
+            <h1><i class="fa-solid fa-mobile"></i> Mobile no:</h1>
+            <p>8956503272</p>
+            <br>
+            <h1><i class="fa-solid fa-envelope"></i> Email-id</h1>
+            <p>dhawanomkar355@gmail.com</p>
+          </div>
+          <div class="contact-box3">
+            <h1>Get In Touch</h1>
+            <h3>Name:</h3>
+            <input type="text" placeholder="Enter Name" class="contact-text">
+            <h3>Phone No:</h3>
+            <input type="text" placeholder="Enter No" class="contact-text">
+            <h3>Enter id:</h3>
+            <input type="text" placeholder="Enter email address(if available)" class="contact-text">
+            <br>
+            <button id="contact-button">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+      <div class="social">
+      
+        <a href="https://www.linkedin.com/in/omkar-dhawan">
+          <i class="fa-brands  fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/dhawan_omkar">
+
+          <i class="fa-brands fa-instagram"></i> 
+        </a>
+        <a href="https://www.facebook.com/om.dhawan.545">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+    <h3>Copyrights ©️ 2024 All Rights Reserved</h3>
+      <!-- <button class="uparrow">
+        <a href="#landing">
+          <i class="fa-solid fa-angle-up"></i>
+
+        </a>
+      </button> -->
+      </div>
+
+    </div>
+
+<div id=footer>
+      <div id="contact-header">
+        <h1>Contact Me</h1>
+      </div>
+      <div id="contact-content">
+        <div id="contact-info">
+          <h1><i class="fa-solid fa-location-dot"></i> Address</h1>
+          <p>1313B,Siddhivinayak Housing Society MIDC,Ratnagiri 415-639</p>
+          <br>
+          <h1><i class="fa-solid fa-mobile"></i> Mobile no:</h1>
+          <p>8956503272</p>
+          <br>
+          <h1><i class="fa-solid fa-envelope"></i> Email-id</h1>
+          <p>dhawanomkar355@gmail.com</p>
+        </div>
+        <div id="line">
+
+        </div>
+        <div id="contact-form">
+          <h1>Get In Touch</h1>
+          <h3>Name:</h3>
+          <input type="text" placeholder="Enter Name" class="contact-text">
+          <h3>Phone No:</h3>
+          <input type="text" placeholder="Enter No" class="contact-text">
+          <h3>Enter id:</h3>
+          <input type="text" placeholder="Enter email address(if available)" class="contact-text">
+          <br>
+          <button id="contact-button">SUBMIT</button>
+        </div>
+      </div>
+      <div id="contact-social" class="container">
+        <div id="social">
+          <a href="https://www.linkedin.com/in/omkar-dhawan">
+            <i class="fa-brands fa-4x fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/dhawan_omkar">
+  
+            <i class="fa-brands fa-4x fa-instagram"></i> 
+          </a>
+          <a href="https://www.facebook.com/om.dhawan.545">
+            <i class="fa-brands fa-4x fa-facebook"></i>
+          </a>
+      <h3>Copyrights ©️ 2024 All Rights Reserved</h3>
+        </div>
+        <div id="uparrow">
+          <a href="#landing">
+             <button id="arrow">
+              <i class="fa-solid fa-angle-up"></i>
+    
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+  <div>
+    
+  </div>

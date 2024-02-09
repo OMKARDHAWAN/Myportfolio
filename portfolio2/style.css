@@ -1,0 +1,622 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  color: #fff;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+
+#minicircle {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: 9999999;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #000;
+  margin: 0.5em 0;
+  background-color: #fff;
+  border-radius: 10em;
+  border: none;
+  margin-top: 5rem;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #ff4400c0;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn-2 {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0.5em 0;
+  background-color: #ff4400c0;
+  border-radius: 10em;
+  border: none;
+  margin-top: 5rem;
+  margin-left: 3rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-2:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #000000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#loader {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  /* border: 2px white solid; */
+  position: absolute;
+  z-index: 2;
+
+}
+
+.welcome {
+  padding-left: 3rem;
+  margin-left: 5rem;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7vw;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.numbers {
+  color: #ff4400c0;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  font-size: 4vw;
+}
+
+.num {
+  overflow: hidden;
+  height: fit-content;
+}
+
+.num h1 {
+  top: -200%;
+}
+
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+
+#landing {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  /* border: 5px solid white; */
+}
+
+.navbar {
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+  /* position: fixed;
+  width: 100%;
+  z-index: 2; */
+}
+
+.navbar .logo {
+  font-size: 3rem;
+  color: #ff4400c0;
+}
+
+.navbar #nav-menu {
+  font-size: 2.2rem;
+}
+
+.navbar #nav-menu li a {
+  margin-left: 3rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar #nav-menu li:hover>a {
+  cursor: pointer;
+  border-bottom: 2px solid #ff4400c0;
+  color: #ff4400c0;
+}
+#xmark,#nav-bar{
+  display: none;
+}
+#imgbox{
+  width: 600px;
+  height: 500px;
+  background-color: red;
+  position: absolute;
+  top: -10px;
+  left:700px;
+  border-radius: 27% 73% 70% 30% / 49% 48% 52% 51% ;
+  color: black;
+}
+.photo {
+  height: 55rem;
+  width: 43rem;
+  position: relative;
+bottom: 40px;
+/* border: 2px solid white; */
+}
+
+.photo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+/* #################################### UTILITY CLASSES #################################### */
+
+.header-content {
+  width: 100%;
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 5rem;
+  align-items: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  margin-top: 5rem;
+}
+
+.header-content .header-info h1 {
+  font-size: 5.5rem;
+}
+
+.header-content .header-info p {
+  font-size: 4.5rem;
+}
+
+.header-content .header-info .developer {
+  color: #ff4400c0;
+}
+
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+#About {
+  margin-top: 0rem;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  /* border: 3px solid red; */
+}
+.aboutid{
+  display: flex;
+}
+.about-img {
+  border: 2px solid white;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  top: 20rem;
+  right: 1rem;
+  
+}
+
+.about-img img {
+  width: 100%;
+  position: relative;
+  
+  object-fit: cover;
+}
+
+.about-content {
+  width: 50%;
+  position: relative;
+  top: -190px;
+  left: 50rem;
+}
+
+.about-content h1 {
+  font-size: 6rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-content p {
+  font-size: 2rem;
+}
+
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+#Skills{
+  margin-top: 10rem;
+}
+
+#Skills>h1{
+  font-size: 6rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.skill-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card {
+  min-width: 250px;
+  max-width: 250px;
+  margin: 2rem 2rem;
+  height: 254px;
+  background: rgb(255, 255, 255);
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.card:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
+  background: rgb(0, 0, 0);
+}
+
+.first-content {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.first-content img{
+  height: 100%;
+  width: 100%;
+}
+
+.card:hover .first-content {
+  height: 0px;
+  opacity: 0;
+}
+
+.second-content {
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.4s;
+  font-size: 0px;
+  transform: rotate(90deg) scale(-1);
+}
+
+.card:hover .second-content {
+  opacity: 1;
+  height: 100%;
+  font-size: 1.8rem;
+  transform: rotate(0deg);
+}
+
+
+
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+
+.Project{
+  /* border: 3px solid white; */
+  position: relative;
+  margin-top: 50rem;
+}
+.Project-header{
+  display: flex;
+  flex-direction: column;
+  /* border: 3px solid white; */
+  justify-content: center;
+  align-items: center;
+}
+.Project-header>h1{
+  font-size: 7rem;
+  margin-bottom: 2rem;
+  border-bottom: 3px solid white;
+  width: 80rem;
+  text-align: center;
+}
+.Project-header>h5{
+  font-size: 2rem;
+}
+#project1{
+  /* border: 3px solid white; */
+  position: relative;
+  margin: 5rem;
+
+}
+.project-view{
+  /* border: 3px solid white; */
+  position: absolute;
+  left: 80rem;
+  /* top: 10rem; */
+  width: 45rem;
+  height: max-content;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 5rem;
+}
+.img{
+  width: 30rem;
+  height: 20rem;
+  margin-bottom: 5rem;
+  
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 10rem;
+  top: 5rem;
+  width: 60rem;
+  /* border: 3px solid white; */
+}
+.info-title{
+  padding: 3rem;
+  padding-left: 0;
+  font-size: 2rem;
+  border-bottom: 3px solid violet;
+}
+.info-para>p{
+  /* border: 3px solid white; */
+  font-size:2rem;
+  margin: 3rem;
+}
+.proj-lang{
+  display: flex;
+  justify-content: space-between;
+}
+.proj-cont1>h1{
+  font-size: 3rem;
+  color: red;
+}
+.proj-cont1>ul{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  justify-content: space-between;
+  font-size: 3rem;
+}
+
+/* project2 */
+.project2{
+  display: flex;
+  position: relative;
+  /* border: 3px solid red; */
+  top: 80rem;
+}
+.project2-view{
+  /* border: 3px solid white; */
+  position: absolute;
+  left: 15rem;
+  top: 10rem;
+  width: 45rem;
+  height: max-content;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 5rem;
+}
+.project2-info{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 80rem;
+  top: 5rem;
+  width: 60rem;
+  /* border: 3px solid white; */
+}
+.explore{
+  width: 16rem;
+  height: 5rem;
+  border-radius: 25px;
+  background:linear-gradient(to right,#ff0000 50%,#000 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 1;
+  /* position: relative;
+  top: 28rem;
+  left: 20rem; */
+  /* opacity: 0; */
+  border: 2px solid #fff;  
+  transition: all 0.5s ease-out;
+}
+.explore:hover{
+  background-position: left;
+}
+
+
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+/* #################################### UTILITY CLASSES #################################### */
+#footer{
+  /* border: 3px solid white; */
+}
+#footer{
+  margin-top: 150rem;
+  background-color: gray;
+
+}
+
+#contact-content{
+  display: flex;
+  
+}
+#contact-header{
+   font-size: 2rem;
+   margin-bottom: 5rem;
+   border-bottom: 3px solid #ff0000;
+   margin-top: 5rem;
+   
+}
+#contact-info{
+  width: 50rem;
+}
+#line{
+  border: #ff0000 solid 3px;
+}
+#contact-form{
+  position: relative;
+  left: 30rem;
+}
+#contact-info>h1{
+  font-size: 3rem;
+  font-size: 600;
+
+}
+#contact-info>p{
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+#contact-form>h1{
+   border-bottom: #ff0000 solid 3px;
+   font-size: 3.5rem;
+   margin-bottom: 5rem;
+}
+#contact-form>h3{
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+.contact-text{
+  width: 30rem;
+  height: 5rem;
+  margin-top: 1rem;
+
+}
+.contact-text::placeholder{
+  position: relative;
+  left: 3rem
+}
+#contact-button{
+  width: 30rem;
+  height: 5rem;
+  margin-top: 5rem;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.social{
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#social{
+    text-align: center;
+}
+#social>a{
+  margin: 1rem;
+}
+#social>a:hover{
+  color: red;
+}
+.uparrow{
+  position: relative;
+  left: 60rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: white 2px solid;
+  background-color: #000;
+  color: white;
+  bottom: 2rem;
+}
+.uparrow:hover{
+  background-color: red;
+  cursor: pointer;
+}
